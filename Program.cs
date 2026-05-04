@@ -8,24 +8,77 @@ namespace NotificationProject
     {
         static void Main(string[] args)
         {
-            // creating users
-            User u1=new("Pratik", "sarangipratik7@gmail.com", "9989898989");
-            User u2=new("Sarangi", "psarangi@presidio.com", "1212121212");
-            
-            // creating the notifications
-            Notification notifEmail=new("ABCDEFG Via email");
-            Notification notifPhone=new("HIJKLMNOP Via phone");
-            
-            // creating the notification service
-            NotificationService notifService=new(); 
-            
-            //creating the message channels-> these are used to send the messages through the service
-            INotificationSender emailChannel=new EmailNotification();
-            INotificationSender smsChannel=new SmsNotification();
+            NotificationService notifService = new();
+            INotificationSender emailChannel = new EmailNotification();
+            INotificationSender smsChannel = new SmsNotification();
+            List<User> users = [];
+            while (true)
+            {
+                Console.WriteLine("1: Create new user");
+                Console.WriteLine("2: Send Email");
+                Console.WriteLine("3: Send SMS");
+                Console.WriteLine("4: Exit");
+                Console.Write("Select option: ");
+                string choice = Console.ReadLine() ?? "";
+                switch (choice)
+                {
+                    case "1":
+                        Console.Write("Enter Name: ");
+                        string name = Console.ReadLine() ?? "";
+                        Console.Write("Enter Email: ");
+                        string email = Console.ReadLine() ?? "";
+                        Console.Write("Enter Phone Number: ");
+                        string phone = Console.ReadLine() ?? "";
 
-            // calling the messaging services: 
-            notifService.NotifyUser(u1, notifEmail, emailChannel);
-            notifService.NotifyUser(u2, notifPhone, smsChannel);
+                        users.Add(new User(name, email, phone));
+                        Console.WriteLine("User created successfully.");
+                        break;
+                    case "2":
+                        if (users.Count == 0)
+                        {
+                            Console.WriteLine("No users available. Please create user first.");
+                            break;
+                        }
+
+                        Console.Write($"Enter user index: ");
+                        if (int.TryParse(Console.ReadLine(), out int emailIndex) && emailIndex >= 0 && emailIndex < users.Count)
+                        {
+                            Console.Write("Enter email message: ");
+                            string emailMsg = Console.ReadLine()??"";
+                            notifService.NotifyUser(users[emailIndex], new Notification(emailMsg), emailChannel);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Invalid index");
+                        }
+                        break;
+                    case "3":
+                        if (users.Count == 0)
+                        {
+                            Console.WriteLine("No users available. Please create user");
+                            break;
+                        }
+
+                        Console.Write($"Enter user index: ");
+                        if (int.TryParse(Console.ReadLine(), out int smsIndex) && smsIndex >= 0 && smsIndex < users.Count)
+                        {
+                            Console.Write("Enter SMS message: ");
+                            string smsMsg = Console.ReadLine()??"";
+                            notifService.NotifyUser(users[smsIndex], new Notification(smsMsg), smsChannel);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Invalid user index.");
+                        }
+                        break;
+                    case "4":
+                        Console.WriteLine("Exiting program!");
+                        return;
+                    default:
+                        Console.WriteLine("Invalid option. Please try again.");
+                        break;
+                }
+            }
         }
     }
 }

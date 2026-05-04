@@ -12,3 +12,4 @@ C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\obj\Debug\net10.0\r
 C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\obj\Debug\net10.0\c-sharp-notif-service.pdb
 C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\obj\Debug\net10.0\c-sharp-notif-service.genruntimeconfig.cache
 C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\obj\Debug\net10.0\ref\c-sharp-notif-service.dll
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\obj\Debug\net10.0\c-sharp-notif-service.sourcelink.json

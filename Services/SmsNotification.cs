@@ -13,7 +13,7 @@ namespace NotificationProject.Services
                 Console.WriteLine($"No phone number for {user.Name}.");
                 return;
             }
-            Console.WriteLine($"SMS sent to ${user.PhoneNumber}. Message is: ${notification.Message}");
+            Console.WriteLine($"SMS sent to {user.PhoneNumber}. Message is: {notification.Message}");
         }
 
     }

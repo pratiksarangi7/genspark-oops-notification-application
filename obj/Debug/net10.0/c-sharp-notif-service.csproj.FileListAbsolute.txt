@@ -1,0 +1,14 @@
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\bin\Debug\net10.0\c-sharp-notif-service.exe
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\bin\Debug\net10.0\c-sharp-notif-service.deps.json
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\bin\Debug\net10.0\c-sharp-notif-service.runtimeconfig.json
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\bin\Debug\net10.0\c-sharp-notif-service.dll
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\bin\Debug\net10.0\c-sharp-notif-service.pdb
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\obj\Debug\net10.0\c-sharp-notif-service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\obj\Debug\net10.0\c-sharp-notif-service.AssemblyInfoInputs.cache
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\obj\Debug\net10.0\c-sharp-notif-service.AssemblyInfo.cs
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\obj\Debug\net10.0\c-sharp-notif-service.csproj.CoreCompileInputs.cache
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\obj\Debug\net10.0\c-sharp-notif-service.dll
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\obj\Debug\net10.0\refint\c-sharp-notif-service.dll
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\obj\Debug\net10.0\c-sharp-notif-service.pdb
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\obj\Debug\net10.0\c-sharp-notif-service.genruntimeconfig.cache
+C:\Users\PRATIK\genspark\c-sharp-codes\c-sharp-notif-service\obj\Debug\net10.0\ref\c-sharp-notif-service.dll

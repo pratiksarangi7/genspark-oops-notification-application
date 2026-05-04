@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-notif-service", "c-sharp-notif-service.csproj", "{BBC0F266-B469-C2EC-55B7-9E02079C104E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBC0F266-B469-C2EC-55B7-9E02079C104E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC0F266-B469-C2EC-55B7-9E02079C104E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC0F266-B469-C2EC-55B7-9E02079C104E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC0F266-B469-C2EC-55B7-9E02079C104E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F2437DA-F80D-4919-A667-9D32C13B0C55}
+	EndGlobalSection
+EndGlobal
